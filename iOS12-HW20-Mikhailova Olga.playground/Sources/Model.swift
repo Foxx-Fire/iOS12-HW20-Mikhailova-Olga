@@ -2,7 +2,7 @@ import Foundation
 
 //MARK: - Card
 public struct CardCodes: Decodable {
-    let cards: [Card]
+    public let cards: [Card]
 }
 
 public struct Card: Decodable {
